@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/preferences_vaccination_header">
+
+        <SwitchPreferenceCompat
+            app:key="vaccination_all_or_latest"
+            app:summaryOff="@string/preferences_vaccination_all"
+            app:summaryOn="@string/preferences_vaccination_latest"
+            app:title="@string/preferences_vaccination_all_or_latest" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.vaccination.VaccinationFormActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="@dimen/activity_vertical_margin"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/form_vaccination_date_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginVertical="@dimen/form_element_vertical_margin"
+            android:autofillHints="@string/vaccination_date"
+            android:ems="10"
+            android:hint="@string/vaccination_date"
+            android:inputType="date"
+            android:focusableInTouchMode="false"/>
+
+        <EditText
+            android:id="@+id/form_vaccination_dose_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginVertical="@dimen/form_element_vertical_margin"
+            android:autofillHints="@string/dose_number"
+            android:ems="10"
+            android:hint="@string/dose_number"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Vaccine"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/form_vaccination_vaccine_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <Button
+            android:id="@+id/form_ok_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/form_button_top_margin"
+            android:text="@string/action_edit_vaccination" />
+
+        <Button
+            android:id="@+id/form_delete_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/danger"
+            android:text="@string/action_delete_vaccination" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

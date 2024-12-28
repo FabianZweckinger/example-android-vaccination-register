@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/empty"
+        android:title="@string/actionbar_more"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_more_vert_24">
+
+        <menu>
+
+            <item android:id="@+id/actionbar_settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                app:iconTint="@color/black"
+                app:showAsAction="ifRoom"
+                android:title="@string/actionbar_more" />
+
+            <item
+                android:id="@+id/actionbar_share_email"
+                android:title="@string/navigation_vaccinations_share_email"
+                android:icon="@drawable/ic_baseline_share_24"
+                app:iconTint="@color/black"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/actionbar_export"
+                android:icon="@drawable/ic_baseline_upload_24"
+                app:iconTint="@color/black"
+                android:title="@string/navigation_vaccinations_export"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/actionbar_import"
+                android:icon="@drawable/ic_baseline_file_download_24"
+                app:iconTint="@color/black"
+                android:title="@string/navigation_vaccinations_import"
+                app:showAsAction="ifRoom" />
+
+            <item android:id="@+id/actionbar_help"
+                android:icon="@drawable/ic_baseline_help_24"
+                app:iconTint="@color/black"
+                app:showAsAction="ifRoom"
+                android:title="@string/action_help" />
+
+        </menu>
+
+    </item>
+</menu>

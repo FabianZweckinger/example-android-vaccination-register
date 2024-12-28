@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_700">#388E3C</color>
+    <color name="blue_100">#B2EBF2</color>
+    <color name="blue_200">#81D4FA</color>
+    <color name="blue_500">#03A9F4</color>
+    <color name="blue_700">#0288D1</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="danger">#F44336</color>
+    <color name="dangerDisabled">#D59F9B</color>
+</resources>

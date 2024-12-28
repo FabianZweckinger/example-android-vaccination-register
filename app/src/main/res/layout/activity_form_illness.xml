@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.illness.IllnessFormActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/form_top_margin"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/form_illness_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/form_element_vertical_margin"
+            android:autofillHints="@string/illness_name"
+            android:ems="10"
+            android:hint="@string/illness_name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/form_ok_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_edit_illness" />
+
+        <RelativeLayout
+            android:id="@+id/form_illness_vaccines_relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/form_illness_vaccines_listview"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_marginVertical="@dimen/form_element_vertical_margin"
+                tools:listitem="@layout/item_vaccine" />
+
+            <TextView
+                android:id="@+id/form_illness_no_vaccines_textView"
+                android:layout_width="265dp"
+                android:layout_height="79dp"
+                android:layout_alignTop="@+id/form_illness_vaccines_listview"
+                android:layout_alignBottom="@+id/form_illness_vaccines_listview"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="@string/no_vaccines"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/form_illness_add_vaccine_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/form_button_top_margin"
+            android:text="@string/action_add_vaccine" />
+
+        <Button
+            android:id="@+id/form_delete_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_delete_illness"
+            android:backgroundTint="@color/danger"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

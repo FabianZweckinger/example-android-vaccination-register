@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">MyVaccReg</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_vaccinations">Vaccinations</string>
+    <string name="title_profile">Profiles</string>
+    <string name="title_illness">Illnesses</string>
+    <string name="actionbar_more">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="navigation_vaccinations_import">Import</string>
+    <string name="navigation_vaccinations_export">Export</string>
+    <string name="navigation_vaccinations_share_email">Share as email</string>
+    <string name="preferences_import_export_header">Import / Export</string>
+    <string name="preferences_export_path">Export Path</string>
+    <string name="preferences_vaccination_header">Vaccinations</string>
+    <string name="preferences_vaccination_all_or_latest">Display latest or all vaccinations</string>
+    <string name="preferences_vaccination_all">Display all vaccinations against a illness</string>
+    <string name="preferences_vaccination_latest">Display only latest vaccination against a illness</string>
+    <string name="add_profile">Add Profile</string>
+    <string name="action_create_profile">Create Profile</string>
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="action_delete_profile">Delete Profile</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="profile_name_too_long">Profile name must be shorter than 20 characters.</string>
+    <string name="profile_name_too_short">Profile name must at least 1 character long.</string>
+    <string name="vaccination_certificates">Vaccination\nCertificates</string>
+    <string name="vaccination_find_doctor">Find Doctor</string>
+    <string name="due_vaccinations">Due Vaccinations</string>
+    <string name="qr_code_icon_content_description">QR Code</string>
+    <string name="doctor_icon_content_description">Doctor icon</string>
+    <string name="app_icon_content_description">App icon</string>
+    <string name="item_profile_profile_image">Profile Image</string>
+    <string name="active_vaccination_protection">Active Vaccination Protection</string>
+    <string name="illness_name_too_long">Illness name must be shorter than 20 characters.</string>
+    <string name="illness_name_too_short">Illness name must be longer than 2 characters.</string>
+    <string name="illness_name">Illness Name</string>
+    <string name="action_create_illness">Create Illness</string>
+    <string name="action_edit_illness">Edit Illness</string>
+    <string name="action_delete_illness">Delete Illness</string>
+    <string name="hello">Hello</string>
+    <string name="doctor">doctor</string>
+    <string name="add_illness">Add Illness</string>
+    <string name="add_vaccination">Add Vaccination</string>
+    <string name="preferences_activity_title">Settings</string>
+    <string name="action_add_vaccine">Add Vaccine</string>
+    <string name="no_vaccines">No vaccines available yet 💀</string>
+    <string name="vaccine_name_too_long">Vaccine name must be shorter than 20 characters.</string>
+    <string name="vaccine_name_too_short">Vaccine name must be longer than 2 characters.</string>
+    <string name="action_edit_vaccine">Edit Vaccine</string>
+    <string name="action_delete_vaccine">Delete Vaccine</string>
+    <string name="action_create_vaccine">Create Vaccine</string>
+    <string name="x">X</string>
+    <string name="x_repeating">X (repeating)</string>
+    <string name="booster_vaccination">Booster Vaccination:</string>
+    <string name="x_basic_immunisation">. Basic Immunisation</string>
+    <string name="dose_number">Dose Number</string>
+    <string name="vaccination_date">Vaccination Date</string>
+    <string name="action_delete_vaccination">Delete Vaccination</string>
+    <string name="action_edit_vaccination">Edit Vaccination</string>
+    <string name="action_create_vaccination">Create Vaccination</string>
+    <string name="vaccination_dose_error">Vaccination dose must be a number between 1 and 999.</string>
+    <string name="vaccination_date_error">Vaccination date must be set</string>
+    <string name="vaccine_name">Vaccine Name</string>
+    <string name="dose">"Dose "</string>
+    <string name="next_basic_immunisation">Next Basic Immunisation</string>
+    <string name="next_booster_immunisation">Next Booster</string>
+    <string-array name="dates_array">
+        <item>Months</item>
+        <item>Years</item>
+    </string-array>
+    <string-array name="exportImport_array">
+        <item>Illnesses + Vaccines</item>
+        <item>Vaccinations</item>
+    </string-array>
+    <string name="title_activity_export_activty">Export Activty</string>
+    <string name="select_export_type">Select export type</string>
+    <string name="select_import_type">Select import type</string>
+    <string name="choose_a_file_to_import">Choose a file to import.</string>
+    <string name="sttorage_permission_missing">Storage Permission is missing</string>
+    <string name="file_chooser_error">File Chooser error</string>
+</resources>
